@@ -35,6 +35,15 @@ For more information about panels, refer to the documentation on [Panels](https:
    ```bash
    yarn build
    ```
+## brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install grafana
+brew services start grafana
+brew services stop grafana
+brew list grafana
+
+API key for Grafana
+Admin Bearer eyJrIjoiTDhjaDdYd2gxWUF6ZGl3cTNoRmc3NGRGV25WMEhFNVYiLCJuIjoiQWRtaW4iLCJpZCI6MX0=
 
 ## Learn more
 
